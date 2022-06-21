@@ -13,5 +13,8 @@
 	"workspaces": [
 		"apps/*",
 		"packages/*"
-	]
+	],
+	"devDependencies": {
+		"concurrently": "^7.2.2"
+	}
 }

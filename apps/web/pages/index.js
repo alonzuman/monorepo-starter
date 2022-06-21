@@ -1,13 +1,12 @@
 import React from "react";
-import a from "a";
-import { Button } from "shared/dist";
+import { DSPrimaryButton } from "shared/dist";
 
 const HomePage = () => {
 	return (
-		<div>
-			HomePage: <h1>{a()}</h1>
-			<Button>Hi</Button>
-		</div>
+		<>
+			<h1>Next app</h1>
+			<DSPrimaryButton>Shared Button</DSPrimaryButton>
+		</>
 	);
 };
 

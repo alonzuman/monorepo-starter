@@ -1,2 +1,2 @@
-import React from "react";
-export declare const Button: React.FC<any>;
+import DSPrimaryButton from "./ds/DSPrimaryButton";
+export { DSPrimaryButton };

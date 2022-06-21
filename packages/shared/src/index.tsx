@@ -1,5 +1,3 @@
-import React from "react";
+import DSPrimaryButton from "./ds/DSPrimaryButton";
 
-export const Button: React.FC<any> = (props: any) => {
-	return <button {...props} />;
-};
+export { DSPrimaryButton };
