@@ -1,5 +1,5 @@
 import React from "react";
-import { DSPrimaryButton } from "shared/dist";
+import { DSPrimaryButton } from "ds/dist";
 
 const HomePage = () => {
 	return (
