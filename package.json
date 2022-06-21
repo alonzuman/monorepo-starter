@@ -5,9 +5,10 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"web:start": "cd apps/web && npm run dev",
-		"spa:start": "cd apps/spa && npm start",
-		"dev": "concurrently \"npm run spa:start\" \"npm run web:start\"",
+		"web:dev": "cd apps/web && npm run dev",
+		"spa:dev": "cd apps/spa && npm run dev",
+		"server:dev": "cd apps/server && npm run dev",
+		"dev": "concurrently \"npm run spa:dev\" \"npm run web:dev\" \"npm run server:dev\"",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [],
