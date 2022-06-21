@@ -1,5 +1,5 @@
 import React from "react";
-import { DSPrimaryButton } from "ds/dist";
+import { DSPrimaryButton } from "ds";
 
 const App = () => {
 	return (

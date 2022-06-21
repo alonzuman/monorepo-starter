@@ -8,8 +8,13 @@
 		"web:dev": "cd apps/web && npm run dev",
 		"spa:dev": "cd apps/spa && npm run dev",
 		"server:dev": "cd apps/server && npm run dev",
-		"dev": "concurrently \"npm run spa:dev\" \"npm run web:dev\" \"npm run server:dev\"",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"ds:dev": "cd packages/ds && npm run dev",
+		"dev": "concurrently \"npm run spa:dev\" \"npm run web:dev\" \"npm run server:dev\" \"npm run ds:dev\"",
+		"web:build": "cd apps/web && npm run build",
+		"spa:build": "cd apps/spa && npm run build",
+		"server:build": "cd apps/server && npm run build",
+		"ds:build": "cd packages/ds && npm run build",
+		"build": "concurrently \"npm run spa:build\" \"npm run web:build\" \"npm run server:build\" \"npm run ds:build\""
 	},
 	"keywords": [],
 	"author": "Alon Zuman",

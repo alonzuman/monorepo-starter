@@ -13,4 +13,3 @@ import Button from "@mui/material/Button";
 import React from "react";
 var DSPrimaryButton = function (props) { return (React.createElement(Button, __assign({ variant: 'contained', color: 'primary' }, props))); };
 export default DSPrimaryButton;
-//# sourceMappingURL=DSPrimaryButton.js.map
